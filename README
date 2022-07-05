@@ -1,3 +1,9 @@
+**User Stories
+***As a reviewer I need a list of nearby restuarants so  can click on them.
+***As a reviewer I need a rating system to show the rating I would give the restaurant
+***As an admin I need buttons that will allow me to delete and add restaurants
+***As an admin I need a place to log in that will give me the admin access
+
 |Method|Path                    |Purpose                                          |
 |------|------------------------|-------------------------------------------------|
 |GET   |/                       | Home Page                                       |
@@ -11,3 +17,10 @@
 |POST  |/places/:id/rant        | Create a rant (comment) about a particular place|
 |DELETE|/places/:id/rant/:rantId| Delete a rant (comment) about a particular place|
 |GET   | *                      | 404 page (matches any route not defined above)  |
+
+**Color Scheme
+***37371F
+***EA9010
+***90BE6D
+***C9E3AC
+***EAEFBD
