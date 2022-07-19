@@ -6,6 +6,4 @@ mongoose.connect(process.env.MONGO_URI, {
   useUnifiedTopology: true
 })
 
-const mongoose = require('mongoose')
-
 module.exports.Place = require('./places')
